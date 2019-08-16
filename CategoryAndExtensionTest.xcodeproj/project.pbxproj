@@ -15,6 +15,8 @@
 		9AF354FC23065DCD0073440B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF354FB23065DCD0073440B /* main.m */; };
 		9AF3550623065DCD0073440B /* CategoryAndExtensionTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3550523065DCD0073440B /* CategoryAndExtensionTestTests.m */; };
 		9AF3551123065DCD0073440B /* CategoryAndExtensionTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3551023065DCD0073440B /* CategoryAndExtensionTestUITests.m */; };
+		9AF3552023065EAC0073440B /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3551F23065EAC0073440B /* CustomView.m */; };
+		9AF35529230669360073440B /* CustomView+MyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF35528230669360073440B /* CustomView+MyCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		9AF3550C23065DCD0073440B /* CategoryAndExtensionTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CategoryAndExtensionTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF3551023065DCD0073440B /* CategoryAndExtensionTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryAndExtensionTestUITests.m; sourceTree = "<group>"; };
 		9AF3551223065DCD0073440B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF3551E23065EAC0073440B /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		9AF3551F23065EAC0073440B /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		9AF35526230669000073440B /* CustomView+MyExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomView+MyExtension.h"; sourceTree = "<group>"; };
+		9AF35527230669360073440B /* CustomView+MyCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomView+MyCategory.h"; sourceTree = "<group>"; };
+		9AF35528230669360073440B /* CustomView+MyCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CustomView+MyCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,11 @@
 				9AF354ED23065DCB0073440B /* AppDelegate.m */,
 				9AF354EF23065DCB0073440B /* ViewController.h */,
 				9AF354F023065DCB0073440B /* ViewController.m */,
+				9AF3551E23065EAC0073440B /* CustomView.h */,
+				9AF3551F23065EAC0073440B /* CustomView.m */,
+				9AF35526230669000073440B /* CustomView+MyExtension.h */,
+				9AF35527230669360073440B /* CustomView+MyCategory.h */,
+				9AF35528230669360073440B /* CustomView+MyCategory.m */,
 				9AF354F223065DCB0073440B /* Main.storyboard */,
 				9AF354F523065DCD0073440B /* Assets.xcassets */,
 				9AF354F723065DCD0073440B /* LaunchScreen.storyboard */,
@@ -263,8 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AF354F123065DCB0073440B /* ViewController.m in Sources */,
+				9AF3552023065EAC0073440B /* CustomView.m in Sources */,
 				9AF354FC23065DCD0073440B /* main.m in Sources */,
 				9AF354EE23065DCB0073440B /* AppDelegate.m in Sources */,
+				9AF35529230669360073440B /* CustomView+MyCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
